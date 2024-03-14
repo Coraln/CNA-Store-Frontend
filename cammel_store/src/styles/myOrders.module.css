@@ -1,0 +1,30 @@
+ 
+  .myOrders {
+    padding: 20px; 
+    margin-top: 20px; 
+    max-width: 1200px; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+
+  
+  .ordersTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .ordersTable th,
+  .ordersTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .ordersTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    width: 50%; 
+    text-align: center; 
+  }

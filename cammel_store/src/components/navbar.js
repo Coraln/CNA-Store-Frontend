@@ -131,6 +131,7 @@ const Navbar = () => {
                                 <span className="login-text" onClick={() => setIsLoginFormVisible(!isLoginFormVisible)}>
                                     | Login
                                 </span>
+                                <Link to="/myOrders" className="register">My orders</Link>
                                 {isLoginFormVisible && (
                                     <div className="login-dropdown" onClick={handleDropdownClick}>
                                         <form onSubmit={handleSubmit}>
